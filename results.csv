@@ -1,0 +1,10 @@
+scene,mode,frames_per_run,runs,ms_per_frame,fast_steps_per_frame,deterministic,wall_hits,tunneled,shot_vx_after_frame_1,mixed_hits_after_frame_1,first_mixed_substep,normal_vx_after_frame_1,normal_x_after_frame_1,stack_range_px,stack_peak_speed_px_s,ccd_limits
+Thin wall,Discrete 60 Hz,1,2000,0.000362,0.000000,1,0,1,2000.000000,,,,,,,0
+Thin wall,CCD 60 Hz,1,2000,0.001157,0.000000,1,1,0,-1500.000000,,,,,,,0
+Thin wall,Multi-rate 60/240 Hz,1,2000,0.001258,4.000000,1,1,0,-1500.000000,,,,,,,0
+Block stacks,Discrete 60 Hz,360,5,0.007502,0.000000,1,,,,,,,,0.000000,0.703948,0
+Block stacks,CCD 60 Hz,360,5,0.015192,0.000000,1,,,,,,,,0.000000,0.027264,0
+Block stacks,Multi-rate 60/240 Hz,360,5,0.009081,4.000000,1,,,,,,,,0.000000,0.703948,0
+Fast vs normal,Discrete 60 Hz,60,5,0.008309,0.000000,1,,,-800.000000,1,,700.000000,484.066467,,,0
+Fast vs normal,CCD 60 Hz,60,5,0.017097,0.000000,1,,,-800.000000,1,,700.000000,487.116667,,,0
+Fast vs normal,Multi-rate 60/240 Hz,60,5,0.012104,4.000000,1,,,-800.000000,1,2,700.000000,486.566467,,,0
